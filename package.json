@@ -1,0 +1,21 @@
+{
+  "name": "challenge-01-node-ignite",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CRUD API for tasks",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "stream": "node --watch src/streams/import-tasks-csv.js"
+  },
+  "keywords": [
+    "node",
+    "ignite",
+    "rocketseat"
+  ],
+  "author": "Bruno Fukumori",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.3.6"
+  }
+}
